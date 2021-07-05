@@ -1,0 +1,96 @@
+.container {
+    width: 400px;
+    height: 1000px;
+    margin: 50px auto 0;
+}
+
+
+header {
+    height: 30px;
+    width: 0 auto;
+}
+
+
+
+h1 {
+    background-color: rgba(34, 49, 52, 0.9);
+    color: white;
+    text-align: center;
+}
+
+
+.add-style {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #00FF00;
+    box-shadow: 0 5px #008800;
+}
+
+.add-style:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.done {
+    text-decoration: line-through 3px solid #000;
+}
+
+input {
+    border: 2px solid #808080;
+    border-radius: 5px;
+    height: 40px;
+    width: 500px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.text-box {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+
+.todos {
+    width: 100%;
+    margin-left: 35px;
+    padding: 0;
+
+}
+
+.list-item {
+    list-style-type: square;
+    font-size: 25px;
+
+}
+
+
+
+.donebutton-style {
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: #005FFF;
+    margin-left: 100px;
+}
+
+.donebutton-style:hover {
+    color: #75A9FF;
+}
+
+.endbutton-style {
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: #FF0461;
+    margin-left: 5px;
+}
+
+.endbutton-style:hover {
+    color: #FF82B2;
+}
+
