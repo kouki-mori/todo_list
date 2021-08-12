@@ -54,6 +54,13 @@ button.addEventListener('click', () => {
 
     });
 
+// ゴミ箱ボタンを押したら一斉削除状態にする
+    // const deleteButton = document.querySelector('#d-btn');
+
+    // deleteButton.addEventListener('click', () => {
+        // const ul = document.querySelector('#todo-list');
+        // ul.remove();
+    // });
     
     
    

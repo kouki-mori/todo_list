@@ -20,22 +20,18 @@
 </head>
 
 <body>
+  <header>
+      <h1>ToDoリスト</h1>
+  </header>
 
   <div class="container">
-    <header>
-      <div class="header">
-        <h1>ToDoリスト</h1>
-      </div>
-    </header>
+    <input class="text-box" id="new-todo" type="text" name="todo" placeholder="Todoを入力してください" style="text-align: left; ">
+    <button class="add-style" id="add-button">登録</button>
+    <!-- <button class="d-btn">一斉削除</button> -->
   
-  
-     <input class="text-box" id="new-todo" type="text" name="todo" placeholder="Todoを入力してください" style="text-align: left; ">
-     <button class="add-style" id="add-button">登録</button>
-  
-     <div class="inner">
-      <ul id="todo-list" class="todos"></ul>
-  
-     </div>
+    <div class="inner">
+    　<ul id="todo-list" class="todos"></ul>
+  　</div>
 
   </div>
 
